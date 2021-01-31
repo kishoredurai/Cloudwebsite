@@ -1544,14 +1544,16 @@ section {
   margin:0px;
   position:fixed;
   right:-130px;
+  font-weight:bold;
   top:230px;
   width:210px;
   z-index: 1100;
 }
 .sticky li{
   list-style-type:none;
-  background-color:rgb(243, 241, 241);
-  color:#c5c1c1;
+  background-color:#3498db;
+  color:#ffffff;
+  border-radius: 4px;
   height:43px;
   padding:0px;
   margin:0px 0px 1px 0px;
@@ -1577,7 +1579,9 @@ section {
 }
 .sticky li p a{
   text-decoration:none;
-  color:#1a1919;
+  color:#ffffff;
+  align-items: center;
+  font-weight: bold;
 }
 .sticky li p a:hover{
   text-decoration:underline;
