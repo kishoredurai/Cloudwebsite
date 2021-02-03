@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,14 +42,16 @@
 
   <div class="sticky-container">
     <ul class="sticky">
-        <li>
-            <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/android-512.png" width="32" height="32">
+      <li>
+        <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/android-512.png" width="32"
+          height="32">
 
-            <p><a href="https://www.facebook.com/codexworld" target="_blank">Download App on<br style="color: red;">PlayStore</br></a></p>
-        </li>
-       
+        <p><a href="https://www.facebook.com/codexworld" target="_blank">Download App on<br
+              style="color: red;">PlayStore</br></a></p>
+      </li>
+
     </ul>
-</div>
+  </div>
 
 
 
@@ -58,7 +62,9 @@
 
       <div class="logo mr-auto">
         <h1 class="text-light"><a href="index.html"><img src="assets/img/logo2.png" width="40" height="30">
-          <span style="color: #3069c5;"><h style="color: red;">C</h>loud <h style="color: red;">L</h>ab</span></a></h1>
+            <span style="color: #3069c5;">
+              <h style="color: red;">C</h>loud <h style="color: red;">L</h>ab
+            </span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -97,23 +103,74 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Grow your knowledge with cloud lab</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">We are team of Cloud lab here to help you !</h2>
-          <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background: url(assets/img/slide/slide-4.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Discover your knowledge with cloud Lab</h2>
+                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi
+                  ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
+                  voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <div>
+                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background: url(assets/img/slide/slide-8.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
+                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi
+                  ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
+                  voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <div>
+                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background: url(assets/img/slide/slide-3.jpg);">
+            <div class="carousel-background"><img src="assets/img/slide/slide-3.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
+                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi
+                  ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
+                  voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <div>
+                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
       </div>
     </div>
-
   </section><!-- End Hero -->
 
   <main id="main">
@@ -125,26 +182,30 @@
         <div class="row">
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src=""  class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+            <img src="" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="https://wciconsulting.com/wp-content/uploads/2018/07/Azure-Logo-600x300-1.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+            <img src="https://wciconsulting.com/wp-content/uploads/2018/07/Azure-Logo-600x300-1.png" class="img-fluid"
+              alt="" data-aos="zoom-in" data-aos-delay="100">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="https://www.logicata.com/wp-content/uploads/2019/10/aws.png"  width="50%" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
+            <img src="https://www.logicata.com/wp-content/uploads/2019/10/aws.png" width="50%" class="img-fluid" alt=""
+              data-aos="zoom-in" data-aos-delay="200">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="https://cdn.freebiesupply.com/logos/large/2x/openstack-logo-png-transparent.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
+            <img src="https://cdn.freebiesupply.com/logos/large/2x/openstack-logo-png-transparent.png" class="img-fluid"
+              alt="" data-aos="zoom-in" data-aos-delay="300">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/googlecloud.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
+            <img src="assets/img/clients/googlecloud.png" class="img-fluid" alt="" data-aos="zoom-in"
+              data-aos-delay="400">
           </div>
 
-         
+
 
         </div>
 
@@ -162,26 +223,31 @@
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
             <p>
-              The key objective of the CLOUD LAB is to develop fundamental, 
-              next-generation cloud and storage technologies that support a true utility-driven service - oriented computing            </p>
+              The key objective of the CLOUD LAB is to develop fundamental,
+              next-generation cloud and storage technologies that support a true utility-driven service - oriented
+              computing </p>
             <ul>
-              <li><i class="ri-cloud-fill"></i> Devlop indigenous cloud solutions to stay ahead in the field of information technology</li>
-              <li><i class="ri-cloud-line"></i> Deliver training to student and faculties to improve their IT solution development skills</li>
+              <li><i class="ri-cloud-fill"></i> Devlop indigenous cloud solutions to stay ahead in the field of
+                information technology</li>
+              <li><i class="ri-cloud-line"></i> Deliver training to student and faculties to improve their IT solution
+                development skills</li>
               <li><i class="ri-cloud-fill"></i> Secure consultancy service by reaching out to the public</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <p>
-              Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.
+              Cloud computing is the on-demand availability of computer system resources, especially data storage and
+              computing power, without direct active management by the user.
             </p>
-            <a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_blank" class="btn-learn-more">Learn More</a>
+            <a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_blank" class="btn-learn-more">Learn
+              More</a>
           </div>
         </div>
 
       </div>
     </section><!-- End About Us Section -->
 
-    
+
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -219,8 +285,8 @@
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <div class="icon"><i class="bx bx-book-reader"></i></div>
+              <h4 class="title"><a href="">Training</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
           </div>
@@ -230,7 +296,7 @@
       </div>
     </section><!-- End Services Section -->
 
-   
+
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
       <div class="container">
@@ -318,7 +384,7 @@
       </div>
     </section><!-- End Features Section -->
 
-    
+
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
@@ -332,7 +398,7 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app" >App</li>
+              <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-web">Website</li>
             </ul>
           </div>
@@ -347,7 +413,8 @@
                 <h4>Cloud App</h4>
                 <p>user-friendly app</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox"
+                    title="App 1"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -361,7 +428,8 @@
                 <h4>BIT CLOUD</h4>
                 <p>web Application</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-15.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-15.jpg" data-gall="portfolioGallery" class="venobox"
+                    title="Web 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -377,22 +445,25 @@
                 <h4>Bit Repository</h4>
                 <p>Web Application</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/web1.png" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/web1.png" data-gall="portfolioGallery" class="venobox" title="Web 2"><i
+                      class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="https://cdn.dribbble.com/users/4479253/screenshots/14600146/post_1_4x.png" class="img-fluid" alt="">
+              <img src="https://cdn.dribbble.com/users/4479253/screenshots/14600146/post_1_4x.png" class="img-fluid"
+                alt="">
               <div class="portfolio-info">
                 <h4>Ticketing System</h4>
                 <p>Web Application</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/web1.png" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/web1.png" data-gall="portfolioGallery" class="venobox" title="Web 2"><i
+                      class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -407,14 +478,15 @@
                 <h4>Networking App</h4>
                 <p>Remote system monitering tool</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox"
+                    title="App 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-       
+
 
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
@@ -424,7 +496,8 @@
                 <h4>Web application</h4>
                 <p>Smart exam monitering system</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/web1.png    " data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/web1.png    " data-gall="portfolioGallery" class="venobox"
+                    title="Web 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -442,7 +515,10 @@
 
         <div class="section-title">
           <h2>Team</h2>
-          <p>The sorrows of a great advantage to raise up. Him, indeed, to the necessities of the flight of his is a result of something. Let there be consectetur velit. Anyone whom the one with greed. And no one has to prevent a receives the rest, for the. Because this man did flee from the duties in the advantage, we realize that this is a quas. </p>
+          <p>The sorrows of a great advantage to raise up. Him, indeed, to the necessities of the flight of his is a
+            result of something. Let there be consectetur velit. Anyone whom the one with greed. And no one has to
+            prevent a receives the rest, for the. Because this man did flee from the duties in the advantage, we realize
+            that this is a quas. </p>
         </div>
 
         <div class="row">
@@ -452,7 +528,7 @@
               <div class="pic"><img src="assets/img/team/MAIN.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Mr Nataraj N</h4>
-                <span>Cloud Lab Incharge</span>
+                <span>Cloud faculty</span>
                 <p>I will explain the softness of pleasure and pain as he drives</p>
                 <div class="social">
                   <a href="tel:+919715884848"><i class="ri-phone-fill"></i></a>
@@ -469,103 +545,140 @@
               <div class="pic"><img src="assets/img/team/MAIN2.jpeg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Ms Poornima A</h4>
-                <span>Cloud Lab Faculty</span>
+                <span>Cloud faculty</span>
                 <p>A man of the present who are to be invited to or greater than the pleasures of the supplier</p>
                 <div class="social">
-                  <a href="tel:"><i class="ri-phone-fill"></i></a>
+                  <a href="tel:+919952641869"><i class="ri-phone-fill"></i></a>
                   <a href="mailto:poornimaa@bitsathy.ac.in"><i class="ri-mail-fill"></i></a>
-                  <a href=""><i class="ri-whatsapp-fill"></i></a>
+                  <a href="https://wa.me/9952641869"><i class="ri-whatsapp-fill"></i></a>
                   <a href=""> <i class="ri-linkedin-fill"></i> </a>
                 </div>
               </div>
             </div>
           </div>
 
-            
-          
+
+
         </div>
 
       </div>
     </section><!-- End Team Section -->
 
-   
 
 
-   <!-- ======= Contact Section ======= -->
-   <section id="contact" class="contact section-bg">
-    <div class="container" data-aos="fade-up">
 
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
 
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="info-box mb-4">
-            <i class="bx bx-map"></i>
-            <h3>Our Address</h3>
-            <p>Cloud Lab,Bannari Amman Institute Of technology, Alathukombai - Post,
-              Sathyamangalam - 638 401, Erode District,</p>
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Our Address</h3>
+              <p>Cloud Lab,Bannari Amman Institute Of technology, Alathukombai - Post,
+                Sathyamangalam - 638 401, Erode District,</p>
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-3 col-md-6">
-          <div class="info-box  mb-4">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Us</h3>
-            <p>cloud@bitsathy.ac.in</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p>cloud@bitsathy.ac.in</p>
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-3 col-md-6">
-          <div class="info-box  mb-4">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Us</h3>
-            <p>+919715884848</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <p>+919715884848</p>
+            </div>
           </div>
+
         </div>
 
-      </div>
+        <div class="row">
+          <div class="col-lg-6 ">
+            <iframe class="mb-4 mb-lg-0"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d397.08582813258556!2d77.27740894215472!3d11.496641841264115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9215cf8e74ff3%3A0xbd93d85ec059a9ac!2sAlathucombai%2C%20Tamil%20Nadu%20638503!5e1!3m2!1sen!2sin!4v1611931199801!5m2!1sen!2sin"
+              frameborder="0" style="border:0; width: 100%; height: 404px;" allowfullscreen></iframe>
+          </div>
 
-      <div class="row">
-        <div class="col-lg-6 ">
-          <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d397.08582813258556!2d77.27740894215472!3d11.496641841264115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9215cf8e74ff3%3A0xbd93d85ec059a9ac!2sAlathucombai%2C%20Tamil%20Nadu%20638503!5e1!3m2!1sen!2sin!4v1611931199801!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-        </div>
-
-        <div class="col-lg-6">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="form-row">
-              <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+          <div class="col-lg-6">
+            <form name="submit-to-google-sheet" id="register" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control" name="rollno" id="rollno" placeholder="Your Rollno"
+                    data-rule="maxlen:8" data-msg="Please enter a valid rollno" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email ID"
+                  data-rule="email" data-msg="Please enter a valid email ID" />
                 <div class="validate"></div>
               </div>
-              <div class="col-md-6 form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="form-group">
+                <input type="number" class="form-control" name="contact" id="contact" placeholder="Contact"
+                  data-rule="maxlen:10" data-msg="Please enter at least 10 digit number" />
                 <div class="validate"></div>
               </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validate"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validate"></div>
-            </div>
-            <div class="mb-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <select name="year" data-rule="required" data-msg="Please enter at least 10 digit number" id="year"
+                    class="form-control">
+                    <option value="0">Year</option>
+                    <option value="I">I</option>
+                    <option value="II">II</option>
+                    <option value="III">III</option>
+                    <option value="IV">IV</option>
+                  </select>
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <select name="dept" id="dept" class="form-control">
+                    <option value="0">Department</option>
+
+                    <option value="volvo"> ARTIFICIAL INTELLIGENCE AND DATA SCIENCE</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                  data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your data has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button id="btt" type="submit">Register</button></div>
+            </form>
+          </div>
+
         </div>
 
       </div>
-
-    </div>
-  </section><!-- End Contact Section -->
+    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -588,7 +701,7 @@
         <div class="col-lg-6">
           <div class="social-links text-center text-md-right pt-3 pt-md-0">
             <a href="#" class="twitter"><i class="bx bxl-youtube"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-whatsapp"></i></a>
+            <a href="https://chat.whatsapp.com/GrakdjYdAJaJoFvsdpHJ7h" class="facebook"><i class="bx bxl-whatsapp"></i></a>
             <a href="#" class="instagram"><i class="bx bxl-slack"></i></a>
             <a href="#" class="google-plus"><i class="bx bxl-blogger"></i></a>
             <a href="#" class="linkedin"><i class="bx bxl-play-store"></i></a>
@@ -597,6 +710,10 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+
+
+  <div id="preloader"></div>
+
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
@@ -611,11 +728,10 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
-
-
-
-
+  <!-- sending mail API -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
