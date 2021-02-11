@@ -26,6 +26,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 4px;
+  background: linear-gradient(45deg,blue,skyblue);
+  box-shadow: inset 0 0 5px;
+}
 
 /*--------------------------------------------------------------
 # Preloader
@@ -1344,7 +1353,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #2c4964;
+  color: #106eea;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1431,7 +1440,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #5846f9;
+  background: #106eea;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1440,7 +1449,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #7b27d8;
+  background: #3498db;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1616,7 +1625,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #e7eafe;
-  color: #3b4ef8;
+  color: #3f34db;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1648,7 +1657,7 @@ section {
 }
 .sticky li{
   list-style-type:none;
-  background-color:#3498db;
+  background-color:#5846f9;
   color:#ffffff;
   border-radius: 4px;
   height:43px;

@@ -154,19 +154,7 @@ const form = document.forms['submit-to-google-sheet']
       .catch(error => console.error('Error!', error.message))
 
       var Email=document.getElementById("email").value;  
-      Email.send({ 
-        Host: "smtp.gmail.com", 
-        Username: "cloud@bitsathy.ac.in", 
-        Password: "Cloud@987", 
-        To: Email, 
-        From: "cloud@bitsathy.ac.in", 
-        Subject: "Welcome to Cloud Lab", 
-        Body: "Well that was easy!!", 
-      }) 
-        .then(function (message) { 
-          alert("mail sent successfully") 
-        }); 
-
+     sendEmail(Email);
     if (navigator.onLine) {
       
 
@@ -181,6 +169,7 @@ const form = document.forms['submit-to-google-sheet']
       this_form.find('.error-message').slideDown().html(msg);
     }
 
+    
     return true;
   });
 

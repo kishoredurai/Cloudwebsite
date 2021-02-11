@@ -652,11 +652,28 @@
                 <div class="col-md-6 form-group">
                   <select name="dept" id="dept" class="form-control">
                     <option value="0">Department</option>
+                    <option value="AERONAUTICAL ENGINEERING">AERONAUTICAL ENGINEERING</option>
+                    <option value="AGRICULTURE ENGINEERING">AGRICULTURE ENGINEERING</option>
+                    <option value="ARTIFICIAL INTELLIGENCE AND DATA SCIENCE">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE</option>
+                    <option value="AUTOMOBILE ENGINEERING">AUTOMOBILE ENGINEERING</option>
+                    <option value="BIOMEDICAL ENGINEERING">BIOMEDICAL ENGINEERING</option>
+                    <option value="BIOTECHNOLOGY">BIOTECHNOLOGY</option>
+                    <option value="COMPUTER SCIENCE AND BUSINESS SYSTEMS">COMPUTER SCIENCE AND BUSINESS SYSTEMS</option>
+                    <option value="CIVIL ENGINEERING">CIVIL ENGINEERING</option>
+                    <option value="COMPUTER SCIENCE AND ENGINEERING">COMPUTER SCIENCE AND ENGINEERING</option>
+                    <option value="COMPUTER TECHNOLOGY">COMPUTER TECHNOLOGY</option>
+                    <option value="ELECTRONICS AND COMMUNICATION ENGINEERING">ELECTRONICS AND COMMUNICATION ENGINEERING</option>
+                    <option value="ELECTRICAL AND ELECTRONICS ENGINEERING">ELECTRICAL AND ELECTRONICS ENGINEERING</option>
+                    <option value="ELECTRONICS AND INSTRUMENTATION ENGINEERING">ELECTRONICS AND INSTRUMENTATION ENGINEERING</option>
+                    <option value="FASHION TECHNOLOGY">FASHION TECHNOLOGY</option>
+                    <option value="FOOD TECHNOLOGY">FOOD TECHNOLOGY</option>
+                    <option value="INFORMATION SCIENCE AND ENGINEERING">INFORMATION SCIENCE AND ENGINEERING</option>
+                    <option value="INFORMATION TECHNOLOGY">INFORMATION TECHNOLOGY</option>
+                    <option value="MECHANICAL ENGINEERING">MECHANICAL ENGINEERING</option>
+                    <option value="MECHATRONICS">MECHATRONICS</option>
+                    <option value="TEXTILE TECHNOLOGY">ATEXTILE TECHNOLOGYudi</option>
+                    
 
-                    <option value="volvo"> ARTIFICIAL INTELLIGENCE AND DATA SCIENCE</option>
-                    <option value="saab">Saab</option>
-                    <option value="opel">Opel</option>
-                    <option value="audi">Audi</option>
                   </select>
                   <div class="validate"></div>
                 </div>
@@ -731,8 +748,24 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
   <!-- sending mail API -->
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script type="text/javascript">
 
+    function sendEmail(email) {
+			Email.send({
+					Host: "smtp.gmail.com",
+					Username: "cloud@bitsathy.ac.in",
+					Password: "Cloud@987",
+					To: email,
+					From: "cloud@bitsathy.ac.in",
+					Subject: "Welcome to cloud lab",
+					Body: "empty body",
+				})
+				.then(function (message) {
+					console.log("mail sent successfully")
+				});
+		}
+</script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
