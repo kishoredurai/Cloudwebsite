@@ -533,7 +533,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #5c9f24;
+  background: #106eea;
 }
 
 #hero .btn-get-started {
@@ -551,13 +551,13 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   text-transform: uppercase;
-  border: 3px solid #5c9f24;
-  background: #5c9f24;
+  border: 3px solid #106eea;
+  background: #106eeaf3;
 }
 
 #hero .btn-get-started:hover {
-  background: #6ab82a;
-  border-color: #6ab82a;
+  background: #3498db;
+  border-color: #3498db;
   color: #fff;
 }
 
